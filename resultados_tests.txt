@@ -1,0 +1,196 @@
+TEST: 1. Modo Cabecera (El Rey Leon)
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: El Rey Leon
+Muere Mufasa.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: El Rey Leon
+Puntuación de spoiler: 5
+Resultado: SPOILER MEDIO
+==================================================
+
+
+TEST: 2. Modo Interactivo (El Rey Leon)
+--------------------------------------------------
+DATOS DE PRUEBA:
+2
+El Rey Leon
+Muere Mufasa.
+[CTRL+D]n
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- DETECTOR DE SPOILERS ---
+1. Libro
+2. Pelicula
+3. Serie
+Elige una opción: 2
+Título de la obra (Enter para omitir): El Rey Leon
+Escribe la reseña (termina pulsando Ctrl+D):
+
+Muere Mufasa.
+
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: El Rey Leon
+Puntuación de spoiler: 5
+Resultado: SPOILER MEDIO
+
+
+¿Analizar otra reseña? (s/n): n
+==================================================
+
+
+TEST: 3. Solo Stopwords
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: LIBRO
+TITULO: Test
+El la los un una.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Libro
+Obra: Test
+Puntuación de spoiler: 0
+Resultado: SIN SPOILERS
+==================================================
+
+
+TEST: 4.1 Sin ventana
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: LIBRO
+TITULO: Test
+muere el protagonista.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Libro
+Obra: Test
+Puntuación de spoiler: 3.5
+Resultado: SPOILER MEDIO
+==================================================
+
+
+TEST: 4.2 Ventana peligrosa
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: LIBRO
+TITULO: Test
+Al final muere el protagonista.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Libro
+Obra: Test
+Puntuación de spoiler: 7
+Resultado: SPOILER GRAVE
+==================================================
+
+
+TEST: 4.3 Ventana de negacion
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: LIBRO
+TITULO: Test
+No muere el protagonista.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Libro
+Obra: Test
+Puntuación de spoiler: 0
+Resultado: SIN SPOILERS
+==================================================
+
+
+TEST: 5.1 BD General
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: X
+El villano mata al maestro.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: X
+Puntuación de spoiler: 4
+Resultado: SPOILER MEDIO
+==================================================
+
+
+TEST: 5.2 BD Especifica (Harry Potter)
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: Harry Potter
+Snape mata a Dumbledore.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: Harry Potter
+Puntuación de spoiler: 7
+Resultado: SPOILER GRAVE
+==================================================
+
+
+TEST: 6. Deduccion de Obra
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: 
+Neo y Morfeo entran en la Matrix.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obras deducidas:
+  1. Matrix (1 menciones)
+  2. Matrix Reloaded (1 menciones)
+  3. Matrix Revolutions (1 menciones)
+  -> Obra más probable: Matrix
+Puntuación de spoiler: 0
+Resultado: SIN SPOILERS
+==================================================
+
+
+TEST: 7.1 Etiqueta Sin Spoilers
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: Test
+Sin Spoilers
+muere todo el mundo.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: Test
+Puntuación de spoiler: 0
+Resultado: Spoiler declarado en la reseña: SIN SPOILERS
+==================================================
+
+
+TEST: 7.2 Etiqueta Spoiler Grave
+--------------------------------------------------
+DATOS DE PRUEBA:
+TIPO: PELICULA
+TITULO: Test
+Spoiler Grave
+Hola.
+--------------------------------------------------
+SALIDA DEL PROGRAMA:
+--- ANALISIS ---
+Tipo: Pelicula
+Obra: Test
+Puntuación de spoiler: 6
+Resultado: Spoiler declarado en la reseña: SPOILER GRAVE
+==================================================
+
+

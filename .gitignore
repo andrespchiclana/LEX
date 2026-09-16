@@ -1,0 +1,5 @@
+build/
+*.o
+spoilers
+*.log
+.vscode/

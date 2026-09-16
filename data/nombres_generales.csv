@@ -1,0 +1,204 @@
+#nombre;obra
+frodo;El Señor de los Anillos: La Comunidad del Anillo
+frodo;El Señor de los Anillos: Las Dos Torres
+frodo;El Señor de los Anillos: El Retorno del Rey
+sam;El Señor de los Anillos: La Comunidad del Anillo
+sam;El Señor de los Anillos: Las Dos Torres
+sam;El Señor de los Anillos: El Retorno del Rey
+gandalf;El Señor de los Anillos: La Comunidad del Anillo
+gandalf;El Señor de los Anillos: Las Dos Torres
+gandalf;El Señor de los Anillos: El Retorno del Rey
+aragorn;El Señor de los Anillos: La Comunidad del Anillo
+aragorn;El Señor de los Anillos: Las Dos Torres
+aragorn;El Señor de los Anillos: El Retorno del Rey
+legolas;El Señor de los Anillos: La Comunidad del Anillo
+legolas;El Señor de los Anillos: Las Dos Torres
+legolas;El Señor de los Anillos: El Retorno del Rey
+gollum;El Señor de los Anillos: Las Dos Torres
+gollum;El Señor de los Anillos: El Retorno del Rey
+sauron;El Señor de los Anillos: El Retorno del Rey
+boromir;El Señor de los Anillos: La Comunidad del Anillo
+
+bilbo;El Hobbit: Un Viaje Inesperado
+bilbo;El Hobbit: La Desolación de Smaug
+bilbo;El Hobbit: La Batalla de los Cinco Ejércitos
+thorin;El Hobbit: Un Viaje Inesperado
+thorin;El Hobbit: La Desolación de Smaug
+thorin;El Hobbit: La Batalla de los Cinco Ejércitos
+smaug;El Hobbit: La Desolación de Smaug
+smaug;El Hobbit: La Batalla de los Cinco Ejércitos
+
+luke;Star Wars: Episodio IV - Una Nueva Esperanza
+luke;Star Wars: Episodio V - El Imperio Contraataca
+luke;Star Wars: Episodio VI - El Retorno del Jedi
+vader;Star Wars: Episodio IV - Una Nueva Esperanza
+vader;Star Wars: Episodio V - El Imperio Contraataca
+vader;Star Wars: Episodio VI - El Retorno del Jedi
+leia;Star Wars: Episodio IV - Una Nueva Esperanza
+leia;Star Wars: Episodio V - El Imperio Contraataca
+leia;Star Wars: Episodio VI - El Retorno del Jedi
+han;Star Wars: Episodio IV - Una Nueva Esperanza
+han;Star Wars: Episodio V - El Imperio Contraataca
+han;Star Wars: Episodio VI - El Retorno del Jedi
+palpatine;Star Wars: Episodio VI - El Retorno del Jedi
+
+anakin;Star Wars: Episodio I - La Amenaza Fantasma
+anakin;Star Wars: Episodio II - El Ataque de los Clones
+anakin;Star Wars: Episodio III - La Venganza de los Sith
+padme;Star Wars: Episodio II - El Ataque de los Clones
+padme;Star Wars: Episodio III - La Venganza de los Sith
+obi-wan;Star Wars: Episodio I - La Amenaza Fantasma
+obi-wan;Star Wars: Episodio II - El Ataque de los Clones
+obi-wan;Star Wars: Episodio III - La Venganza de los Sith
+
+tony;Vengadores
+tony;Iron Man
+tony;Iron Man 2
+tony;Iron Man 3
+steve;Vengadores
+steve;Capitán América: El Primer Vengador
+steve;Capitán América: El Soldado de Invierno
+natasha;Vengadores
+bruce;Vengadores
+thor;Vengadores
+thor;Thor
+loki;Vengadores
+loki;Thor
+
+jack;Piratas del Caribe: La Maldición de la Perla Negra
+jack;Piratas del Caribe: El Cofre del Hombre Muerto
+jack;Piratas del Caribe: En el Fin del Mundo
+will;Piratas del Caribe: La Maldición de la Perla Negra
+elizabeth;Piratas del Caribe: La Maldición de la Perla Negra
+barbossa;Piratas del Caribe: La Maldición de la Perla Negra
+
+neo;Matrix
+neo;Matrix Reloaded
+neo;Matrix Revolutions
+trinity;Matrix
+trinity;Matrix Reloaded
+trinity;Matrix Revolutions
+morpheus;Matrix
+morpheus;Matrix Reloaded
+morpheus;Matrix Revolutions
+smith;Matrix
+smith;Matrix Reloaded
+smith;Matrix Revolutions
+
+vito;El Padrino
+michael;El Padrino
+michael;El Padrino II
+michael;El Padrino III
+sonny;El Padrino
+fredo;El Padrino II
+kay;El Padrino II
+
+sherlock;Sherlock Holmes
+sherlock;Sherlock (Serie)
+watson;Sherlock Holmes
+watson;Sherlock (Serie)
+moriarty;Sherlock Holmes
+moriarty;Sherlock (Serie)
+irene;Sherlock Holmes
+
+goku;Dragon Ball Z
+goku;Dragon Ball Super
+vegeta;Dragon Ball Z
+vegeta;Dragon Ball Super
+gohan;Dragon Ball Z
+freezer;Dragon Ball Z
+cell;Dragon Ball Z
+buu;Dragon Ball Z
+
+naruto;Naruto
+naruto;Naruto Shippuden
+sasuke;Naruto
+sasuke;Naruto Shippuden
+sakura;Naruto
+sakura;Naruto Shippuden
+kakashi;Naruto
+kakashi;Naruto Shippuden
+itachi;Naruto Shippuden
+
+luffy;One Piece
+zoro;One Piece
+nami;One Piece
+usopp;One Piece
+sanji;One Piece
+robin;One Piece
+chopper;One Piece
+franky;One Piece
+brook;One Piece
+
+eren;Ataque a los Titanes
+mikasa;Ataque a los Titanes
+armin;Ataque a los Titanes
+levi;Ataque a los Titanes
+eren;Ataque a los Titanes: Temporada Final
+
+light;Death Note
+l;Death Note
+ryuk;Death Note
+misa;Death Note
+
+jon;Juego de Tronos
+daenerys;Juego de Tronos
+tyrion;Juego de Tronos
+cersei;Juego de Tronos
+arya;Juego de Tronos
+sansa;Juego de Tronos
+jaime;Juego de Tronos
+bran;Juego de Tronos
+jorah;Juego de Tronos
+theon;Juego de Tronos
+
+rick;The Walking Dead
+carl;The Walking Dead
+daryl;The Walking Dead
+michonne;The Walking Dead
+negan;The Walking Dead
+
+walter;Narcos
+pablo;Narcos
+murphy;Narcos
+peña;Narcos
+
+batman;El Caballero Oscuro
+batman;Batman Begins
+joker;El Caballero Oscuro
+harvey;El Caballero Oscuro
+alfred;El Caballero Oscuro
+
+logan;Lobezno Inmortal
+logan;Logan
+charles;Logan
+laura;Logan
+
+spock;Star Trek
+kirk;Star Trek
+bones;Star Trek
+uhura;Star Trek
+
+shrek;Shrek
+fiona;Shrek
+burro;Shrek
+farquaad;Shrek
+
+woody;Toy Story
+buzz;Toy Story
+andy;Toy Story
+rex;Toy Story
+
+elsa;Frozen
+anna;Frozen
+olaf;Frozen
+kristoff;Frozen
+
+marty;Regreso al Futuro
+doc;Regreso al Futuro
+biff;Regreso al Futuro
+
+indiana;Indiana Jones y el Arca Perdida
+indiana;Indiana Jones y la Última Cruzada
+marion;Indiana Jones y el Arca Perdida
+henry;Indiana Jones y la Última Cruzada
